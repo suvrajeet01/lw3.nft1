@@ -1607,3 +1607,83 @@ Total 16 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/suvrajeet01/lw3.nft1.git
    fb9589c..c984e3d  trunk -> trunk
 PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> clear
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ create mode 100644 terminal commands.txt
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add 
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git commit -m "terminal command and outputs"
+[trunk d57761e] terminal command and outputs
+ 1 file changed, 1609 insertions(+)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 6.51 KiB | 3.26 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/suvrajeet01/lw3.nft1.git
+   c984e3d..d57761e  trunk -> trunk
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1>  ctrl + l
