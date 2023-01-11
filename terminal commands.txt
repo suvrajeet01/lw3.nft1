@@ -1687,3 +1687,105 @@ remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To https://github.com/suvrajeet01/lw3.nft1.git
    c984e3d..d57761e  trunk -> trunk
 PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1>  ctrl + l
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ create mode 100644 terminal commands.txt
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   terminal commands.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add.
+git: 'add.' is not a git command. See 'git --help'.
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is up to date with 'origin/trunk'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   terminal commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git add .
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git commit -m "terminal commands with outputs"
+[trunk 8d1d81a] terminal commands with outputs
+ 1 file changed, 81 insertions(+), 1 deletion(-)
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/suvrajeet01/lw3.nft1.git/'
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git status
+On branch trunk
+Your branch is ahead of 'origin/trunk' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> git push
+fatal: Response status code does not indicate success: 401 (Unauthorized).
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 847 bytes | 847.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suvrajeet01/lw3.nft1.git
+   d57761e..8d1d81a  trunk -> trunk
+PS D:\web3\learn-web3.dao.io\freshman\nft1\lw3.nft1> clear
